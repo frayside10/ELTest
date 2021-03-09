@@ -2,8 +2,8 @@ import logging
 import warnings
 import gensim
 
-def gen_lda_model(corpus, id2word):
-    logging.basicConfig(filename='lda_model.log', format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+def gen_lda_model(corpus, id2word, model_log, model_data):
+    logging.basicConfig(filename=model_log, format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
     with warnings.catch_warnings():
         warnings.simplefilter('ignore')
@@ -16,7 +16,7 @@ def gen_lda_model(corpus, id2word):
                                passes=20,
                                eval_every = 1,
                                per_word_topics=True)
-        lda_train4.save('lda_train4.model')
+        lda_train4.save(model_data)
         return lda_train4
 
 def train_vectors(lda_model, train_corp, df):
