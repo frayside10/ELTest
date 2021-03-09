@@ -130,6 +130,8 @@ dmypy.json
 
 # exclude data
 data/
+# except
+!data/.gitkeep
 
 # idea
 .idea
