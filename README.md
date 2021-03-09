@@ -3,7 +3,7 @@
 #### -- Project Status: Active
 
 ## Project Intro/Objective
-The purpose of this project is run explore running an unsupervised learning model learn topics on IMDB reviews.  Discovered topics will then be used as a feature set for supervised learning.  'Dummy' Hypothesis is that actors' performance is more important that film storyline in order to get a good review.  
+The purpose of this project is to explore running an unsupervised learning model learn topics on IMDB reviews.  Discovered topics will then be used as a feature set for supervised learning.  'Dummy' Hypothesis is that actors' performance is more important that film storyline in order to get a good review.  
 
 ### Collaborators
 |Name     |  Github Page   |  
