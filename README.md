@@ -19,16 +19,15 @@ The purpose of this project is to explore running an unsupervised learning model
 * Python
 * Pandas, jupyter
 
-## Project Description
+## Credit
+Data sourced from: https://ai.stanford.edu/~amaas/data/sentiment/
 
 
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-5. Follow setup [instructions](Link to file)
+2. Input data came from [https://ai.stanford.edu/~amaas/data/sentiment/]
+3. Download the data and load into project files structure:  root_dir/data/raw
 
 
 ---
