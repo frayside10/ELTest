@@ -19,6 +19,7 @@ funcy==1.15
 future==0.18.2
 gensim==3.8.3
 idna==2.10
+iniconfig==1.1.1
 install==1.3.4
 ipykernel==5.5.0
 ipython==7.10.0
@@ -55,16 +56,19 @@ pathy==0.4.0
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.1.2
+pluggy==0.13.1
 preshed==3.0.5
 prometheus-client==0.9.0
 prompt-toolkit==3.0.17
 ptyprocess==0.7.0
+py==1.10.0
 pycparser==2.20
 pydantic==1.7.3
 Pygments==2.8.1
 pyLDAvis==3.2.2
 pyparsing==2.4.7
 pyrsistent==0.17.3
+pytest==6.2.2
 python-dateutil==2.8.1
 pytz==2021.1
 pyzmq==22.0.3
@@ -86,6 +90,7 @@ terminado==0.9.2
 testpath==0.4.4
 thinc==8.0.2
 threadpoolctl==2.1.0
+toml==0.10.2
 tornado==6.1
 tqdm==4.59.0
 traitlets==5.0.5
